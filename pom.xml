@@ -11,7 +11,7 @@
 
     <properties>
         <java.version>8</java.version>
-        <vaadin.version>14.7.3</vaadin.version>
+        <vaadin.version>14.7.1</vaadin.version>
     </properties>
 
     <parent>
@@ -158,6 +158,21 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
